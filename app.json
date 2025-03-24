@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ReparacionComputadorasApp",
+    "slug": "ReparacionComputadorasApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/loading-bar.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/loading-bar.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.tunegocio.reparacioncomputadoras",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/loading-bar.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.jpg"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Permiso para acceder a la cámara"
+        }
+      ]
+    ],
+    "extra": {
+      "EXPO_PUBLIC_API_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0NjkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJjb25zdWx0b3IifQ.F1oEl1ZgfOGBa-tR7IxnPnh7nnHaAX4Suq9loP2kmdQ",
+      "eas": {
+        "projectId": "ae6bbeb9-dae4-42e0-b145-07100b07b236"
+      }
+    }
+  }
+}
